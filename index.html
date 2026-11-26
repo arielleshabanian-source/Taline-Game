@@ -1,5 +1,5 @@
 <!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Crucible Protocol — V0.5 — Nixon Demo</title><style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#171918}canvas{display:block;width:100%;height:100%;outline:none;touch-action:none}#loadstatus{position:fixed;inset:0;display:grid;place-items:center;color:#d6c7aa;font:15px Georgia;text-align:center;padding:20px}</style><script src="https://cdn.babylonjs.com/babylon.js"></script><script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script></head><body><canvas id="renderCanvas" tabindex="0"></canvas><div id="loadstatus">Loading Babylon.js…</div><script>
-async function getNixonBytes(){const r=await fetch('./nixon.glb');if(!r.ok)throw Error('Nixon model missing: '+r.status);return new Uint8Array(await r.arrayBuffer());}
+async function getNixonBytes(){const r=await fetch('./Meshy_AI_rigged_businessman_20261126_animated_mixamo_All_animation.glb');if(!r.ok)throw Error('Nixon model missing: '+r.status);return new Uint8Array(await r.arrayBuffer());}
 // THE CRUCIBLE PROTOCOL — 0.5 / The Observation Ward — Nixon character demo
 // Textured human assets and animations: models.codelove.in (MIT; retain embedded licenses).
 // Standalone demo; the original character model is embedded in this HTML.
